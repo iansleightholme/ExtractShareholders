@@ -1,0 +1,58 @@
+﻿[
+    {
+        "id": "AEE334D9A2F1E8D5B24010B568CFD637",
+        "registrationNumber": "04994880",
+        "countryCode": "UK",
+        "type": "EVENT WITHOUT REGISTRATION",
+        "time": "2016-02-29 00:00:00"
+    },
+  {
+    "id": "6E7A8791C405679930C99F42BDD99A7A",
+    "registrationNumber": "04994880",
+    "countryCode": "UK",
+    "type": "EVENT WITHOUT REGISTRATION",
+    "time": "2016-02-29 00:00:00"
+  },
+    {
+        "id": "4EDC80E589C987A22B417B8DAE91AEFB",
+        "registrationNumber": "04994880",
+        "countryCode": "UK",
+        "type": "COMPULSORY STRIKING OFF",
+        "time": "2016-12-26 00:00:00"
+    },
+    {
+        "id": "5E701895AF555A7BE68172C5EB6ED9BE",
+        "registrationNumber": "04994880",
+        "countryCode": "UK",
+        "type": "COMPULSORY STRIKING OFF",
+        "time": "2016-12-26 00:00:00"
+    },
+    {
+        "id": "2A971A893E82395AF1AF27B9BBED57AE",
+        "registrationNumber": "04994880",
+        "countryCode": "UK",
+        "type": "STRIKING OFF",
+        "time": "2016-12-28 00:00:00"
+    },
+    {
+        "id": "7193B9ACCFD1298F36B913072C3D49FB",
+        "registrationNumber": "04994880",
+        "countryCode": "UK",
+        "type": "STRIKING OFF",
+        "time": "2016-12-28 00:00:00"
+    },
+    {
+        "id": "5092438661D44AF363711300F4097E3B",
+        "registrationNumber": "04994880",
+        "countryCode": "UK",
+        "type": "STRIKING OFF",
+        "time": "2017-12-15 00:00:00"
+    },
+    {
+        "id": "004CA941D4ED92292F0E8D705C26D18C",
+        "registrationNumber": "04994880",
+        "countryCode": "UK",
+        "type": "STRIKING OFF",
+        "time": "2017-12-15 00:00:00"
+    }
+]

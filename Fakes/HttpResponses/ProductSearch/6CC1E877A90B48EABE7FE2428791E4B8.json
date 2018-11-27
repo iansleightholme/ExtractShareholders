@@ -1,0 +1,38 @@
+﻿[
+  {
+    "sku": "REPOFHFAT",
+    "description": "",
+    "price": "10.0",
+    "type": "REP",
+    "category": "OF",
+    "provider": "HF",
+    "countryCode": "AT",
+    "hasOptions": false,
+    "options": [],
+    "availability": "UNKNOWN"
+  },
+    {
+        "sku": "ADDAAHFAT",
+        "description": "",
+        "price": "6.67",
+        "type": "ADD",
+        "category": "AA",
+        "provider": "HF",
+        "countryCode": "AT",
+        "hasOptions": false,
+        "options": [],
+        "availability": "UNKNOWN"
+    },
+    {
+        "sku": "ADDASHFAT",
+        "description": "",
+        "price": null,
+        "type": "ADD",
+        "category": "AS",
+        "provider": "HF",
+        "countryCode": "AT",
+        "hasOptions": false,
+        "options": [],
+        "availability": "UNKNOWN"
+    }
+]

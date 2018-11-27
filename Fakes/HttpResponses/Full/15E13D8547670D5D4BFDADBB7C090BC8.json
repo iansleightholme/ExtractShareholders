@@ -1,0 +1,161 @@
+﻿{
+    "id": "15E13D8547670D5D4BFDADBB7C090BC8",
+    "country": "UK",
+    "registrationNumber": "04994880",
+    "name": "MASS MEDIA DESIGN LTD",
+    "status": "LIVE",
+  "address": [
+    "250",
+    "South Oak Way",
+    "Green Park",
+    "Reading",
+    "Berkshire",
+    "RG2 6UG",
+    "England"
+  ],
+    "formattedAddress": {
+        "number": "250",
+        "street": "South Oak Way",
+        "district": "Green Park",
+        "city": "Reading",
+        "region": "Berkshire",
+        "zip": "RG2 6UG",
+        "country": "England",
+        "cc": "UK"
+    },
+    "managingDirectors": [
+        "Gregor SPOWART"
+    ],
+    "secretaries": [],
+    "dateOfIncorporation": "2003-12-15",
+    "legalForm": "ltd",
+    "sicNaceCodes": [
+        "62090 - Other information technology service activities",
+        "62090"
+    ],
+    "extraData": {
+        "otherName": "MASS MEDIA DESIGN LTD",
+        "currentAppointments": "3",
+        "email": "enquiries@massmediadesign.co.uk",
+        "facebook": "https://www.facebook.com/massmediadesign",
+        "providedStatus": "active",
+        "resignedAppointments": "2",
+        "shareCapital": "4",
+        "shareCurrency": "GBP",
+        "twitter": "twitter.com/massmediadesign",
+        "vat": "GB837834003"
+    },
+    "people": {
+        "director": [
+            {
+                "dateOfBirth": "1974-11",
+                "endDate": "2018-08-30",
+                "name": "BUNCE, Andrew Kenneth",
+                "startDate": "2004-06-16",
+                "status": "RESIGNED",
+                "address": [
+                    "44 Common Platt",
+                    "Purton",
+                    "Swindon",
+                    "Wiltshire",
+                    "SN5 5LB"
+                ]
+            },
+            {
+                "dateOfBirth": "1977-08",
+                "name": "SPOWART, Gregor",
+                "startDate": "2008-06-05",
+                "status": "CURRENT",
+                "address": [
+                    "250",
+                    "South Oak Way",
+                    "Green Park",
+                    "Reading",
+                    "Berkshire",
+                    "RG2 6UG",
+                    "England"
+                ]
+            },
+            {
+                "endDate": "2003-12-15",
+                "name": "DUPORT DIRECTOR LIMITED",
+                "startDate": "2003-12-15",
+                "status": "RESIGNED",
+                "address": [
+                    "2 Southfield Road",
+                    "Westbury-On-Trym",
+                    "Bristol",
+                    "BS9 3BH"
+                ]
+            }
+        ],
+        "secretary": [
+            {
+                "endDate": "2018-08-30",
+                "name": "BUNCE, Ann",
+                "startDate": "2004-06-16",
+                "status": "RESIGNED",
+                "address": [
+                    "44 Common Platt",
+                    "Near Purton",
+                    "Swindon",
+                    "Wiltshire",
+                    "SN5 5LB"
+                ]
+            },
+            {
+                "endDate": "2003-12-15",
+                "name": "DUPORT SECRETARY LIMITED",
+                "startDate": "2003-12-15",
+                "status": "RESIGNED",
+                "address": [
+                    "The Bristol Office",
+                    "2 Southfield Road",
+                    "Westbury On Trym",
+                    "Bristol",
+                    "BS9 3BH"
+                ]
+            }
+        ],
+        "ultimateBeneficialOwner": [
+            {
+                "dateOfBirth": "1977-08",
+                "name": "Mr Gregor John Spowart",
+                "startDate": "2016-12-01",
+                "address": [
+                    "250 South Oak Way",
+                    "Green Park",
+                    "Reading",
+                    "Berkshire",
+                    "RG2 6UG"
+                ]
+            },
+            {
+                "dateOfBirth": "1974-11",
+                "endDate": "2018-08-30",
+                "name": "Mr Andrew Kenneth Bunce",
+                "startDate": "2016-12-01",
+                "address": [
+                    "250 South Oak Way",
+                    "Green Park",
+                    "Reading",
+                    "Berkshire",
+                    "RG2 6UG"
+                ]
+            }
+        ]
+    },
+    "latestAccounts": {
+        "category": "micro-entity",
+        "lastMadeUpDate": "2017-05-31",
+        "nextDueDate": "2019-02-28",
+        "overdue": "false",
+        "referenceDate": "31-05"
+    },
+    "latestReturn": {
+        "lastMadeUpDate": "2017-12-15",
+        "nextDueDate": "2018-12-29",
+        "overdue": "NO"
+    },
+    "lastAnnouncementDate": "2017-12-15"
+}

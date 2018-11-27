@@ -1,0 +1,88 @@
+﻿Company Register Information
+Company Number: 04994880 Date of Incorporation 2003-12-15
+Company Name: MASS MEDIA DESIGN LTD
+Registered Office: 250 South Oak Way
+Green Park
+Reading
+Berkshire
+RG2 6UG
+England
+Company Type: ltd
+Country of Origin: UK
+Status: LIVE
+Nature Of Business (SIC): 62090
+Previous Names
+not reported
+Key Filing Dates
+Accounting Reference Date: 31-05
+Last Accounts Made Up To: 2017-05-31
+Next Accounts Due: 2019-02-28
+Last Return Made Up To: 2011-12-15
+Next Return Due: 2013-01-12
+Current Appointments
+Number of current appointments: 1
+Director: SPOWART, Gregor
+Date of Birth: 1977-08
+Appointed: 2008-06-05
+Nationality: British
+No. of Appointments: not reported
+Address: not reported
+Country/State of Residence: United Kingdom
+Recent Filing History
+Documents filed since 2017-02-16
+Date Form Description
+2018-09-26 PSC07 cessation-of-a-person-with-significant-control
+2018-09-18 AD01 change-registered-office-address-company-with-date-old-addressnew-
+address
+2018-09-14 TM02 termination-secretary-company-with-name-termination-date
+2018-09-11 RESOLUTIONS resolution
+2018-09-10 SH08 capital-name-of-class-of-shares
+2018-02-23 AA accounts-with-accounts-type-micro-entity
+2017-12-15 CS01 confirmation-statement-with-updates
+2017-02-16 AA accounts-with-accounts-type-total-exemption-small
+
+Companies House   CS01 (ef)
+Company Name:  MASS MEDIA DESIGN LTD
+Company Number:  04994880
+Received for filing in Electronic Format on the : 26/09/2018
+Company Name:  MASS MEDIA DESIGN LTD
+Company Number:  04994880
+Confirmation Statement date:  26/09/2018
+
+Statement of Capital (Share Capital)
+Class of Shares:  A
+Number allotted  185
+ORDINARY
+Aggregate nominal value:  3.7
+Currency:  GBP
+Prescribed particulars
+ORDINARY A SHARES SHALL BE VOTING SHARES AND CONFER RIGHTS ON THE HOLDER TO ATTEND AND VOTE AT GENERAL MEETINGS OF THE COMPANY.
+Class of Shares:  B
+Number allotted  15
+ORDINARY
+Aggregate nominal value:  0.3
+Currency:  GBP
+Prescribed particulars
+ORDINARY B SHARES SHALL BE VOTING SHARES AND CONFER RIGHTS ON THE HOLDER TO ATTEND AND VOTE AT GENERAL MEETINGS OF THE COMPANY.
+Statement of Capital (Totals)
+Currency:  GBP
+Total number of shares:  200
+Total aggregate nominal value:  4
+Total aggregate amount unpaid:  0
+
+Full details of Shareholders
+The details below relate to individuals/corporate bodies that were shareholders during the review period or that had ceased to be shareholders since the date of the previous confirmation statement.
+Shareholder information for a non-traded company as at the confirmation statement date is shown below
+
+Shareholding 1:  15 B ORDINARY shares held as at the date of this confirmation statement
+Name:  ANDREW KENNETH BUNCE
+Shareholding 2:  185 A ORDINARY shares held as at the date of this confirmation statement
+Name:  Gregor Spowart
+
+Confirmation Statement
+I confirm that all information required to be delivered by the company to the registrar in relation to the confirmation period concerned either has been delivered or is being delivered at the same time as the confirmation statement. 
+
+Authorisation
+Authenticated
+This form was authorised by one of the following:
+Director, Secretary, Person Authorised, Charity Commission Receiver and Manager, CIC Manager, Judical Factor

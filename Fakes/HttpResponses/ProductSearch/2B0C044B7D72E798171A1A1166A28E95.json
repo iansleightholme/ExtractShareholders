@@ -1,0 +1,62 @@
+﻿[
+  {
+    "sku": "REPOFCHUK",
+    "description": "",
+    "price": "4.17",
+    "type": "REP",
+    "category": "OF",
+    "provider": "CH",
+    "countryCode": "UK",
+    "hasOptions": false,
+    "options": [],
+    "availability": "UNKNOWN"
+  },
+    {
+        "sku": "ADDASCHUK",
+        "description": "",
+        "price": "3.33",
+        "type": "ADD",
+        "category": "AS",
+        "provider": "CH",
+        "countryCode": "UK",
+        "hasOptions": false,
+        "options": [],
+        "availability": "UNKNOWN"
+    },
+    {
+        "sku": "ADDAACHUK",
+        "description": "",
+        "price": "3.33",
+        "type": "ADD",
+        "category": "AA",
+        "provider": "CH",
+        "countryCode": "UK",
+        "hasOptions": false,
+        "options": [],
+        "availability": "UNKNOWN"
+    },
+    {
+        "sku": "ADDCRCSUK",
+        "description": "",
+        "price": null,
+        "type": "ADD",
+        "category": "CR",
+        "provider": "CS",
+        "countryCode": "UK",
+        "hasOptions": false,
+        "options": [],
+        "availability": "UNKNOWN"
+    },
+    {
+        "sku": "ADDSLCHUK",
+        "description": "",
+        "price": null,
+        "type": "ADD",
+        "category": "SL",
+        "provider": "CH",
+        "countryCode": "UK",
+        "hasOptions": false,
+        "options": [],
+        "availability": "UNKNOWN"
+    }
+]

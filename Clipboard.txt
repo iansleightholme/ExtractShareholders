@@ -1,0 +1,170 @@
+
+        //static string OrderUri(string countryCode, string companyNumber)
+        //{
+        //    FakeKompanyApiClient apiClient = new FakeKompanyApiClient();
+
+        //    string detailsJson = apiClient.SearchByNumber(countryCode, companyNumber);
+        //    CompanyRegistration details = JsonConvert.DeserializeObject<IList<CompanyRegistration>>(detailsJson).First();
+
+        //    string announcementsJson = apiClient.GetAnouncements(details.id);
+        //    IList<Announcement> announcements = JsonConvert.DeserializeObject<IList<Announcement>>(announcementsJson);
+
+        //    string fullJson = apiClient.GetCompanyFull(details.id);
+        //    Company company = JsonConvert.DeserializeObject<Company>(fullJson);
+
+        //    string productSearchJson = apiClient.ProductSearch(details.id);
+        //    IList<ProductSearch> productSearch = JsonConvert.DeserializeObject<IList<ProductSearch>>(productSearchJson);
+
+        //    string productOrderJson = apiClient.ProductOrder(GetSku(countryCode), details.id);
+        //    ProductOrder productOrder = JsonConvert.DeserializeObject<ProductOrder>(productOrderJson);
+
+        //    string productJson = apiClient.GetProduct(productOrder.identity);
+        //    Product product = JsonConvert.DeserializeObject<Product>(productJson);
+
+        //    return product.uri;
+        //}
+
+        //static string GetSku(string countryCode)
+        //{
+        //    switch (countryCode.ToUpper())
+        //    {
+        //        case "GB":
+        //            return "REPOFCHUK";
+        //        case "AT":
+        //            return "REPOFHFAT";
+        //        default:
+        //            throw new NotImplementedException();
+        //    }
+        //}
+		//using Spire;
+//using iTextSharp.text.pdf;
+//using iTextSharp.text.pdf.parser;
+//using PdfSharp;
+// using EvoPdf;
+//using SautinSoft;
+
+//var account = JsonConvert.DeserializeObject(json);
+//string contents = ReadAllText("./Pdfs/REPRG-UK-04994880-1543058894-en.pdf");
+//string contents = ExtractTextFromPdf("./Pdfs/REPRG-UK-04994880-1543058894-en.pdf");
+
+//PdfSharp.Pdf.PdfDocument document = new PdfSharp.Pdf.PdfDocument("./Pdfs/REPRG-UK-04994880-1543058894-en.pdf");
+//PdfSharp.Pdf.PdfDocument doc = new PdfSharp.Pdf.PdfDocument(filename);
+//string text = document.Pages[1].Contents.Elements.GetDictionary(0).Stream.ToString();
+
+
+//EvoPdf.PdfToText.PdfToTextConverter pdfToTextConverter = new EvoPdf.PdfToText.PdfToTextConverter();
+
+//string text = pdfToTextConverter.ConvertToText("./Pdfs/REPRG-UK-04994880-1543058894-en.pdf");
+
+//public static string Read23(string filename)
+//{
+//    PdfSharp.Pdf.PdfDocument doc = new PdfSharp.Pdf.PdfDocument(filename);
+//    string text = doc.Pages[0].Contents.Elements.GetDictionary(0).Stream.ToString();
+
+//    return text;
+//    //text
+//    //var doc = PdfReader.Open(path);
+//    //string pageText = doc.Pages[0].Contents.Elements.GetDictionary(0).Stream.ToString();
+
+
+//}
+
+//byte[] content1 = System.IO.File.ReadAllBytes("./Pdfs/REPRG-UK-04994880-1543058894-en.pdf");
+//using (System.IO.StreamReader reader = new System.IO.StreamReader("./Pdfs/REPRG-UK-04994880-1543058894-en.pdf"))
+//{
+//    reader.
+//}
+
+//Spire.Pdf.PdfDocument document = new Spire.Pdf.PdfDocument();
+//document.LoadFromFile("./Pdfs/REPRG-UK-04994880-1543058894-en.pdf");
+//string page3 = document.Pages[3].ExtractText();
+//SautinSoft.PdfFocus f = new SautinSoft.PdfFocus();
+//f.OpenPdf("./Pdfs/REPRG-UK-04994880-1543058894-en.pdf");
+//string contents = f.ToText();
+//string contents = document.Pages[1].ToString();
+//// http://www.squarepdf.net/parsing-pdf-files-using-itextsharp
+//public static string ExtractTextFromPdf(string path)
+//{
+//    using (PdfReader reader = new PdfReader(path))
+//    {
+//        StringBuilder text = new StringBuilder();
+
+//        for (int i = 4; i <= reader.NumberOfPages; i++)
+//        {
+//            text.Append(PdfTextExtractor.GetTextFromPage(reader, i));
+//        }
+
+//        return text.ToString();
+//    }
+//}
+
+//static string ReadAllText(string filename)
+//{
+//    //Spire.Pdf.PdfDocument document = new Spire.Pdf.PdfDocument("./Pdfs/REPRG-UK-04994880-1543058894-en.pdf");
+//    Spire.Pdf.PdfDocument document = new Spire.Pdf.PdfDocument(filename);
+
+
+//    StringBuilder sb = new StringBuilder();
+//    for (int i = 4; i < document.Pages.Count; i++)
+//        sb.Append(document.Pages[i].ExtractText());
+
+//    return sb.ToString();
+//}
+
+//public class Account
+//{
+//    public string Email { get; set; }
+//    public bool Active { get; set; }
+//    public DateTime CreatedDate { get; set; }
+//    public IList<string> Roles { get; set; }
+//}
+
+
+
+//// GET api/values
+//public IEnumerable<string> Get()
+//{
+//    return new string[] { "value1", "value2" };
+//}
+
+//// GET api/values/5
+//public string Get(int id)
+//{
+//    return "value";
+//}
+
+//// POST api/values
+//public void Post([FromBody]string value)
+//{
+//}
+
+//// PUT api/values/5
+//public void Put(int id, [FromBody]string value)
+//{
+//}
+
+//// DELETE api/values/5
+//public void Delete(int id)
+//{
+//}
+
+
+
+
+
+
+//            Console.WriteLine(reportText);
+
+//            ShareRegister register = new ShareRegister()
+//            {
+//                CountryCode = countryCode,
+//                CompanyNumber = companyNumber,
+//                Shares = new List<Share>()
+//                {
+//                    new Share("Class A Ordinary", 10, "Mr Adam Brown", "P"),
+//                    new Share("Preference", 50, "Carlton Limited", "C"),
+//                    new Share("Class A Ordinary", 10, "Mrs Denise Brown", "P"),
+//                }
+//            };
+
+//            return register;

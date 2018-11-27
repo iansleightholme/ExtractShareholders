@@ -1,0 +1,93 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="HttpResponses\Announcements\15E13D8547670D5D4BFDADBB7C090BC8.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="HttpResponses\Announcements\15E13D8547670D5D4BFDADBB7C090BC8.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="HttpResponses\Announcements\2B0C044B7D72E798171A1A1166A28E95.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="HttpResponses\Announcements\6CC1E877A90B48EABE7FE2428791E4B8.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="HttpResponses\Full\15E13D8547670D5D4BFDADBB7C090BC8.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="HttpResponses\Full\2B0C044B7D72E798171A1A1166A28E95.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="HttpResponses\Full\6CC1E877A90B48EABE7FE2428791E4B8.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="HttpResponses\ProductOrder\REPOFCHUK_15E13D8547670D5D4BFDADBB7C090BC8.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="HttpResponses\ProductOrder\REPOFCHUK_2B0C044B7D72E798171A1A1166A28E95.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="HttpResponses\ProductOrder\REPOFHFAT_6CC1E877A90B48EABE7FE2428791E4B8.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="HttpResponses\ProductSearch\15E13D8547670D5D4BFDADBB7C090BC8.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="HttpResponses\ProductSearch\2B0C044B7D72E798171A1A1166A28E95.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="HttpResponses\ProductSearch\6CC1E877A90B48EABE7FE2428791E4B8.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="HttpResponses\Product\0CEC70B0BA718DA1732B1B1EE32438C1.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="HttpResponses\Product\42400A9B9787C101B0842B73E7061471.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="HttpResponses\Product\BF24D9649F5432579B2730C62A099E18.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="HttpResponses\SearchByNumber\AT_472283I.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="HttpResponses\SearchByNumber\GB_04994880.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="HttpResponses\SearchByNumber\GB_09145711.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="PdfContents\ConfirmationStatement_AimBrainSolutions.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="PdfContents\ConfirmationStatement_MassMediaDesign.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="PdfContents\Statement_PaySafe.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Pdfs\REPRG-AT-472283I-1543074537-en.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Pdfs\REPRG-UK-04994880-1543058894-en.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Pdfs\REPRG-UK-09145711-1543072842-en.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

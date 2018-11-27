@@ -1,0 +1,134 @@
+﻿{
+  "id": "2B0C044B7D72E798171A1A1166A28E95",
+  "country": "UK",
+  "registrationNumber": "09145711",
+  "name": "AIMBRAIN SOLUTIONS LTD",
+  "status": "LIVE",
+  "address": [
+    "Aimbrain, Level39 One Canada Square",
+    "Canary Wharf",
+    "London",
+    "E14 5AB",
+    "England"
+  ],
+  "formattedAddress": {
+    "number": "Aimbrain, Level39 One Canada Square",
+    "street": "Canary Wharf",
+    "city": "London",
+    "zip": "E14 5AB",
+    "country": "England",
+    "cc": "UK"
+  },
+  "managingDirectors": [
+    "MR. ALESIS NOVIK",
+    "MR. ANDRIUS SUTAS",
+    "MR DAVID HENRY BARRINGTON GLADWYN",
+    "MR PAUL ANTHONY MCNABB"
+  ],
+  "secretaries": [],
+  "dateOfIncorporation": "2014-07-24",
+  "legalForm": "ltd",
+  "sicNaceCodes": [],
+  "extraData": {
+    "currentAppointments": "4",
+    "providedStatus": "active",
+    "resignedAppointments": "0"
+  },
+  "people": {
+    "director": [
+      {
+        "dateOfBirth": "1989-02-07",
+        "name": "ALESIS NOVIK",
+        "startDate": "2014-07-24",
+        "status": "CURRENT",
+        "address": [
+          "AIMBRAIN, LEVEL39 ONE CANADA SQUARE",
+          "CANARY WHARF",
+          "LONDON",
+          "ENGLAND",
+          "E14 5AB"
+        ]
+      },
+      {
+        "dateOfBirth": "1991-02-10",
+        "name": "ANDRIUS SUTAS",
+        "startDate": "2014-07-24",
+        "status": "CURRENT",
+        "address": [
+          "AIMBRAIN, LEVEL39 ONE CANADA SQUARE",
+          "CANARY WHARF",
+          "LONDON",
+          "ENGLAND",
+          "E14 5AB"
+        ]
+      },
+      {
+        "name": "DAVID HENRY BARRINGTON GLADWYN",
+        "startDate": "2017-06-06",
+        "status": "CURRENT",
+        "address": [
+          "BGF VENTURES 13-15 YORK BUILDINGS",
+          "LONDON",
+          "ENGLAND",
+          "WC2N 6JU"
+        ]
+      },
+      {
+        "name": "PAUL ANTHONY MCNABB",
+        "startDate": "2015-11-10",
+        "status": "CURRENT",
+        "address": [
+          "AIMBRAIN, LEVEL39 ONE CANADA SQUARE",
+          "CANARY WHARF",
+          "LONDON",
+          "ENGLAND",
+          "E14 5AB"
+        ]
+      }
+    ],
+    "ultimateBeneficialOwner": [
+      {
+        "dateOfBirth": "1989-02",
+        "endDate": "2018-07-01",
+        "name": "Mr. Alesis Novik",
+        "startDate": "2016-04-06",
+        "address": [
+          "19 Mandarin Court Edward Street",
+          "London",
+          "SE8 5HL"
+        ]
+      },
+      {
+        "dateOfBirth": "1991-02",
+        "endDate": "2018-07-01",
+        "name": "Mr. Andrius Sutas",
+        "startDate": "2016-04-06",
+        "address": [
+          "4th Floor, Grove House 27 Hammersmith Gr",
+          "London",
+          "W6 0NE"
+        ]
+      },
+      {
+        "name": "Episode 1 Investments Lp",
+        "startDate": "2016-07-25",
+        "address": [
+          "Kingsbourne House",
+          "229-231 High Holborn",
+          "London",
+          "WC1V 7DA"
+        ]
+      }
+    ]
+  },
+  "latestAccounts": {
+    "category": "NO ACCOUNTS FILED",
+    "nextDueDate": "2016-04-24",
+    "overdue": "NO",
+    "referenceDate": "31-07"
+  },
+  "latestReturn": {
+    "nextDueDate": "2015-08-21",
+    "overdue": "NO"
+  }
+}

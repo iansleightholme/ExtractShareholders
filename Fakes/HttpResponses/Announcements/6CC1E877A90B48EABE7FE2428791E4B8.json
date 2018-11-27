@@ -1,0 +1,23 @@
+﻿[
+  {
+    "id": "D156FCA8BC50FD3D59258DC96FF0F86D",
+    "registrationNumber": "472283i",
+    "countryCode": "AT",
+    "type": "NEW INCORPORATION",
+    "time": "2017-06-21 00:00:00"
+  },
+    {
+        "id": "FED9F712C77FCA48DC8B3D75278BDEB3",
+        "registrationNumber": "472283i",
+        "countryCode": "AT",
+        "type": "MODIFICATION",
+        "time": "2017-06-29 00:00:00"
+    },
+    {
+        "id": "FEE383769866DBE9B65763292904AEA1",
+        "registrationNumber": "472283i",
+        "countryCode": "AT",
+        "type": "MODIFICATION",
+        "time": "2018-07-31 00:00:00"
+    }
+]
