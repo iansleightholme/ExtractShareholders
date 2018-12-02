@@ -17,8 +17,14 @@ namespace KompanyExtractShareholders
         {
             Model.Model model = new Model.Model();
             ShareRegister register = model.GetShareRegister("at", "472283i");  //04994880  472283i  "gb", "09145711"
-            //ShareRegister register = model.GetShareRegister("GB", "09145711");  //04994880  472283i  
-            //string contents = reader.GetAllText(new Uri(uri));
+                                                                               //ShareRegister register = model.GetShareRegister("GB", "09145711");  //04994880  472283i  
+                                                                               //string contents = reader.GetAllText(new Uri(uri));
+
+            foreach (Share s in register.Shares)
+                Console.WriteLine($"{s.Description} {s.Quantity} {s.Owner} {s.OwnerType}");
+
+            string output = JsonConvert.SerializeObject(register);
+            Console.WriteLine(output);
         }
     }
 }

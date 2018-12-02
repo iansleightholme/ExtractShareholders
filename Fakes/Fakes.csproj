@@ -6,12 +6,92 @@
 
   <ItemGroup>
     <None Remove="HttpResponses\Announcements\15E13D8547670D5D4BFDADBB7C090BC8.json" />
+    <None Remove="HttpResponses\Announcements\2B0C044B7D72E798171A1A1166A28E95.json" />
+    <None Remove="HttpResponses\Announcements\6CC1E877A90B48EABE7FE2428791E4B8.json" />
+    <None Remove="HttpResponses\Full\15E13D8547670D5D4BFDADBB7C090BC8.json" />
+    <None Remove="HttpResponses\Full\2B0C044B7D72E798171A1A1166A28E95.json" />
+    <None Remove="HttpResponses\Full\6CC1E877A90B48EABE7FE2428791E4B8.json" />
+    <None Remove="HttpResponses\ProductOrder\REPOFCHUK_15E13D8547670D5D4BFDADBB7C090BC8.json" />
+    <None Remove="HttpResponses\ProductOrder\REPOFCHUK_2B0C044B7D72E798171A1A1166A28E95.json" />
+    <None Remove="HttpResponses\ProductOrder\REPOFHFAT_6CC1E877A90B48EABE7FE2428791E4B8.json" />
+    <None Remove="HttpResponses\ProductSearch\15E13D8547670D5D4BFDADBB7C090BC8.json" />
+    <None Remove="HttpResponses\ProductSearch\2B0C044B7D72E798171A1A1166A28E95.json" />
+    <None Remove="HttpResponses\ProductSearch\6CC1E877A90B48EABE7FE2428791E4B8.json" />
+    <None Remove="HttpResponses\Product\0CEC70B0BA718DA1732B1B1EE32438C1.json" />
+    <None Remove="HttpResponses\Product\42400A9B9787C101B0842B73E7061471.json" />
+    <None Remove="HttpResponses\Product\BF24D9649F5432579B2730C62A099E18.json" />
+    <None Remove="HttpResponses\SearchByNumber\AT_472283I.json" />
+    <None Remove="HttpResponses\SearchByNumber\GB_04994880.json" />
+    <None Remove="HttpResponses\SearchByNumber\GB_09145711.json" />
+    <None Remove="PdfContents\ConfirmationStatement_AimBrainSolutions.txt" />
+    <None Remove="PdfContents\ConfirmationStatement_MassMediaDesign.txt" />
+    <None Remove="PdfContents\Statement_PaySafe.txt" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="HttpResponses\Announcements\15E13D8547670D5D4BFDADBB7C090BC8.json">
+    <EmbeddedResource Include="HttpResponses\Announcements\15E13D8547670D5D4BFDADBB7C090BC8.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HttpResponses\Announcements\2B0C044B7D72E798171A1A1166A28E95.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HttpResponses\Announcements\6CC1E877A90B48EABE7FE2428791E4B8.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HttpResponses\Full\15E13D8547670D5D4BFDADBB7C090BC8.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HttpResponses\Full\2B0C044B7D72E798171A1A1166A28E95.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HttpResponses\Full\6CC1E877A90B48EABE7FE2428791E4B8.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HttpResponses\ProductOrder\REPOFCHUK_15E13D8547670D5D4BFDADBB7C090BC8.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HttpResponses\ProductOrder\REPOFCHUK_2B0C044B7D72E798171A1A1166A28E95.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HttpResponses\ProductOrder\REPOFHFAT_6CC1E877A90B48EABE7FE2428791E4B8.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HttpResponses\ProductSearch\15E13D8547670D5D4BFDADBB7C090BC8.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HttpResponses\ProductSearch\2B0C044B7D72E798171A1A1166A28E95.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HttpResponses\ProductSearch\6CC1E877A90B48EABE7FE2428791E4B8.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HttpResponses\Product\0CEC70B0BA718DA1732B1B1EE32438C1.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HttpResponses\Product\42400A9B9787C101B0842B73E7061471.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HttpResponses\Product\BF24D9649F5432579B2730C62A099E18.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HttpResponses\SearchByNumber\AT_472283I.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HttpResponses\SearchByNumber\GB_04994880.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HttpResponses\SearchByNumber\GB_09145711.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PdfContents\ConfirmationStatement_AimBrainSolutions.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PdfContents\ConfirmationStatement_MassMediaDesign.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PdfContents\Statement_PaySafe.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
@@ -19,66 +99,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="HttpResponses\Announcements\2B0C044B7D72E798171A1A1166A28E95.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="HttpResponses\Announcements\6CC1E877A90B48EABE7FE2428791E4B8.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="HttpResponses\Full\15E13D8547670D5D4BFDADBB7C090BC8.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="HttpResponses\Full\2B0C044B7D72E798171A1A1166A28E95.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="HttpResponses\Full\6CC1E877A90B48EABE7FE2428791E4B8.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="HttpResponses\ProductOrder\REPOFCHUK_15E13D8547670D5D4BFDADBB7C090BC8.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="HttpResponses\ProductOrder\REPOFCHUK_2B0C044B7D72E798171A1A1166A28E95.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="HttpResponses\ProductOrder\REPOFHFAT_6CC1E877A90B48EABE7FE2428791E4B8.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="HttpResponses\ProductSearch\15E13D8547670D5D4BFDADBB7C090BC8.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="HttpResponses\ProductSearch\2B0C044B7D72E798171A1A1166A28E95.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="HttpResponses\ProductSearch\6CC1E877A90B48EABE7FE2428791E4B8.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="HttpResponses\Product\0CEC70B0BA718DA1732B1B1EE32438C1.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="HttpResponses\Product\42400A9B9787C101B0842B73E7061471.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="HttpResponses\Product\BF24D9649F5432579B2730C62A099E18.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="HttpResponses\SearchByNumber\AT_472283I.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="HttpResponses\SearchByNumber\GB_04994880.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="HttpResponses\SearchByNumber\GB_09145711.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="PdfContents\ConfirmationStatement_AimBrainSolutions.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="PdfContents\ConfirmationStatement_MassMediaDesign.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="PdfContents\Statement_PaySafe.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Update="Pdfs\REPRG-AT-472283I-1543074537-en.pdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

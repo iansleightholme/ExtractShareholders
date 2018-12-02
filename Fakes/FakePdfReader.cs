@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
+using System.Reflection;
 
 namespace Fakes
 {
@@ -9,7 +10,11 @@ namespace Fakes
     {
         public string GetAllText(Uri uri)
         {
-            return File.ReadAllText($"./PdfContents/{GetFileName(uri)}");
+            Assembly assembly = Assembly.GetExecutingAssembly();
+            string location = $"Fakes.PdfContents.{GetFileName(uri)}";
+            using (Stream stream = assembly.GetManifestResourceStream(location))
+            using (StreamReader reader = new StreamReader(stream))
+                return reader.ReadToEnd();
         }
 
         string GetFileName(Uri uri)

@@ -12,12 +12,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BB18DAE8-3A43-430F-8965-01D50FEABE66}"
 	ProjectSection(SolutionItems) = preProject
 		Clipboard.txt = Clipboard.txt
+		Clipboard2.txt = Clipboard2.txt
 		DAL\zzFakeKompanyApiClient.cs = DAL\zzFakeKompanyApiClient.cs
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{F1ED4A90-E2B6-45AD-BB02-BACB473C2031}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{C3B29847-D08E-4D13-A94D-130032A96F9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{C3B29847-D08E-4D13-A94D-130032A96F9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

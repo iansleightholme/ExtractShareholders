@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Reflection;
 
 namespace Fakes
 {
@@ -12,43 +12,41 @@ namespace Fakes
     {
         public string SearchByNumber(string countryCode, string id)
         {
-            string filename = $"./HttpResponses/SearchByNumber/{countryCode.ToUpper()}_{id.ToUpper()}.json";
-            return ReadFile(filename);
+            return ReadFile($"SearchByNumber.{countryCode.ToUpper()}_{id.ToUpper()}.json");
         }
 
         public string GetAnouncements(string id)
         {
-            string filename = $"./HttpResponses/Announcements/{id}.json";
-            return ReadFile(filename);
+            return ReadFile($"Announcements.{id}.json");
         }
 
         public string GetCompanyFull(string id)
         {
-            string filename = $"./HttpResponses/Full/{id}.json";
-            return ReadFile(filename);
+            return ReadFile($"Full.{id}.json");
         }
 
         public string ProductSearch(string id) 
         {
-            string filename = $"./HttpResponses/ProductSearch/{id}.json";
-            return ReadFile(filename);
+            return ReadFile($"ProductSearch.{id}.json");
         }
 
         public string ProductOrder(string sku, string id)
         {
-            string filename = $"./HttpResponses/ProductOrder/{sku}_{id}.json";
-            return ReadFile(filename);
+            return ReadFile($"ProductOrder.{sku}_{id}.json");
         }
 
         public string GetProduct(string id)
         {
-            string filename = $"./HttpResponses/Product/{id}.json";
-            return ReadFile(filename);
+            return ReadFile($"Product.{id}.json");
         }
 
         string ReadFile(string path)
         {
-            return File.ReadAllText(path);
+            Assembly assembly = Assembly.GetExecutingAssembly();
+            string location = "Fakes.HttpResponses." + path;
+            using (Stream stream = assembly.GetManifestResourceStream(location))
+            using (StreamReader reader = new StreamReader(stream))
+                return reader.ReadToEnd();
         }
     }
 }
